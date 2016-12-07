@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+/Users/valadares/JavaWebWorkspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1136674978.index
+2187492614.index
+970207231.index
+1739499602.index
+2767265809.index
+2290650964.index
