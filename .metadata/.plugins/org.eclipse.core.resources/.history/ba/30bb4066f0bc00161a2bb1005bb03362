@@ -1,0 +1,20 @@
+package br.com.javaparaweb.capitulo3.crudannotations;
+
+import org.hibernate.Session;
+
+public class ContatoCrudAnnotations {
+
+	private Session sessao;
+	
+	public ContatoCrudAnnotations(Session sessao){
+		this.sessao = sessao;
+	}
+	
+	public void salvar(Contato contato){
+		sessao.save(contato);
+	}
+	
+	public void atualizar(Contato contato){
+		sessao.update(contato);
+	}
+}

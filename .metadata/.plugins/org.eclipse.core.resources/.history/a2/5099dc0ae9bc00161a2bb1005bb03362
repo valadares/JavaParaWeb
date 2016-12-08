@@ -1,0 +1,17 @@
+package br.com.javaparaweb.capitulo3.crudannotations;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name="contato")
+public class Contato {
+	@Id
+	@GeneratedValue
+	@Column(name="codigo")
+	private Integer codigo;
+	@Column(name= "telefone", lenght=50,nullable=true)
+	private String nome;
+	
+	
+	
+}

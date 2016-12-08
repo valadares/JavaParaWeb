@@ -5,9 +5,11 @@
 			<item value="javaparaweb"/>
 		</list>
 		<list key="name">
+			<item value="Exempos do Hibernate"/>
 			<item value="Teste"/>
 		</list>
 		<list key="artifactId">
+			<item value="exemploshibernate"/>
 			<item value="teste"/>
 		</list>
 		<list key="projectNameTemplate">
