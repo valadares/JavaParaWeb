@@ -16,7 +16,7 @@ public class Cliente implements Serializable {
 	@Column(name= "cod_cliente")
 	private Integer cliente;
 	
-	@OneToOne
+	@OneToOne(cascade=CascadeType.ALL)
 	@PrimaryKeyJoinColumn(name="cod_cliente")
 	private Endereco endereco;
 	
